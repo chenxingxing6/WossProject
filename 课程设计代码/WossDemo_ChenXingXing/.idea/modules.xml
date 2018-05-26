@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GatherAndStore/GatherAndStore.iml" filepath="$PROJECT_DIR$/GatherAndStore/GatherAndStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WossDemo_ChenXingXing.iml" filepath="$PROJECT_DIR$/WossDemo_ChenXingXing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wossMapReduce/wossMapReduce.iml" filepath="$PROJECT_DIR$/wossMapReduce/wossMapReduce.iml" />
+    </modules>
+  </component>
+</project>

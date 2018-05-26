@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<woss>
+    <gather class="com.briup.client.GatherImpl">
+        <src-file>data/radwtmp</src-file>
+    </gather>
+
+    <client class="com.briup.client.ClientImpl">
+        <ip>127.0.0.1</ip>
+        <port>9999</port>
+    </client>
+
+    <server class="com.briup.server.ServerImpl">
+        <port>9999</port>
+    </server>
+
+    <logger class="com.briup.util.LoggerImpl">
+        <log-properties>src/main/resources/log4j.properties</log-properties>
+    </logger>
+
+    <backup class="com.briup.woss.BackupImpl">
+        <back-temp>src/main/java/com/briup/File/map.txt</back-temp>
+    </backup>
+
+    <dbstore class="com.briup.server.DBStoreimpl">
+        <url>jdbc:mysql://localhost:3306/ks</url>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <userName>root</userName>
+        <passWord>123456</passWord>
+        <back-file>src/main/java/com/briup/File/list.txt</back-file>
+    </dbstore>
+</woss>
